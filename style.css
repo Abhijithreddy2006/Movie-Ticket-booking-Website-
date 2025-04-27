@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.movie-card {
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background-color: #28a745;
+}
+
+.screen {
+    background-color: #343a40;
+    height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    border-radius: 5px;
+} 
